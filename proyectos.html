@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AeroEstructuras | Proyectos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+<header class="encabezado">
+
+    <div class="logo">
+        AeroEstructuras
+    </div>
+
+    <nav class="menu">
+
+        <a href="index.html">Inicio</a>
+
+        <a href="nosotros.html">Nosotros</a>
+
+        <a href="servicios.html">Servicios</a>
+
+        <a href="proyectos.html">Proyectos</a>
+
+        <a href="#" class="icono-menu">🌐</a>
+
+        <a href="#" class="icono-menu">🔍</a>
+
+        <a href="contacto.html" class="boton-contactanos">
+            Contáctanos
+        </a>
+
+    </nav>
+
+</header>
+
+<!-- PISO 2 - PRESENTACIÓN DE PROYECTOS -->
+<section class="proyectos-hero">
+
+    <div class="contenido-proyectos-hero">
+
+        <h1>Nuestros Proyectos</h1>
+
+        <p>
+            Conoce algunos de los proyectos desarrollados por AeroEstructuras,
+            donde combinamos diseño, calidad, seguridad e innovación para crear
+            espacios funcionales y adaptados a las necesidades de cada cliente.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- PISO 3 - GALERÍA DE PROYECTOS -->
+<section class="galeria-proyectos">
+
+    <div class="titulo-seccion">
+
+        <h2>Proyectos Destacados</h2>
+
+        <p>
+            Explora nuestros proyectos y encuentra diferentes soluciones
+            de construcción, diseño e infraestructura.
+        </p>
+
+    </div>
+
+
+    <!-- FILTROS Y BUSCADOR -->
+    <div class="filtros-proyectos">
+
+        <div class="botones-filtro">
+
+            <button class="filtro activo" data-filtro="todos">
+                Todos
+            </button>
+
+            <button class="filtro" data-filtro="residencial">
+                Residenciales
+            </button>
+
+            <button class="filtro" data-filtro="comercial">
+                Comerciales
+            </button>
+
+            <button class="filtro" data-filtro="infraestructura">
+                Infraestructura
+            </button>
+
+        </div>
+
+
+        <!-- BUSCADOR -->
+        <div class="buscador-proyectos">
+
+            <input
+                type="text"
+                id="buscador"
+                placeholder="Buscar proyecto..."
+            >
+
+            <button type="button" id="boton-buscar">
+                🔍
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- AQUÍ COLOCAREMOS LOS 9 PROYECTOS -->
+     <!-- CONTENEDOR DE PROYECTOS -->
+<div class="contenedor-proyectos">
+
+    <!-- PROYECTO 1 -->
+    <div class="tarjeta-proyecto" data-categoria="residencial">
+
+        <img
+            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+            alt="Casa residencial moderna"
+        >
+
+        <div class="contenido-proyecto">
+
+            <span>Residencial</span>
+
+            <h3>Casa Residencial Moderna</h3>
+
+            <p>
+                Diseño y construcción de una vivienda moderna,
+                funcional y adaptada a las necesidades de sus habitantes.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- PROYECTO 2 -->
+    <div class="tarjeta-proyecto" data-categoria="comercial">
+
+        <img
+            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
+            alt="Edificio comercial"
+        >
+
+        <div class="contenido-proyecto">
+
+            <span>Comercial</span>
+
+            <h3>Centro Comercial Empresarial</h3>
+
+            <p>
+                Desarrollo de un espacio comercial moderno,
+                diseñado para ofrecer funcionalidad y una buena experiencia.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- PROYECTO 3 -->
+    <div class="tarjeta-proyecto" data-categoria="infraestructura">
+
+        <img
+            src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80"
+            alt="Proyecto de infraestructura"
+        >
+
+        <div class="contenido-proyecto">
+
+            <span>Infraestructura</span>
+
+            <h3>Proyecto de Infraestructura Urbana</h3>
+
+            <p>
+                Desarrollo de infraestructura orientada a mejorar
+                la seguridad, funcionalidad y eficiencia del espacio.
+            </p>
+
+        </div>
+
+    
+
+</div>
+<!-- PROYECTO 4 -->
+<div class="tarjeta-proyecto" data-categoria="residencial">
+
+    <img
+        src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80"
+        alt="Vivienda residencial"
+    >
+
+    <div class="contenido-proyecto">
+
+        <span>Residencial</span>
+
+        <h3>Vivienda Familiar</h3>
+
+        <p>
+            Diseño de una vivienda familiar con espacios cómodos,
+            modernos y pensados para una vida funcional.
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- PROYECTO 5 -->
+<div class="tarjeta-proyecto" data-categoria="residencial">
+
+    <img
+        src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80"
+        alt="Residencia contemporánea"
+    >
+
+    <div class="contenido-proyecto">
+
+        <span>Residencial</span>
+
+        <h3>Residencia Contemporánea</h3>
+
+        <p>
+            Proyecto residencial que combina diseño contemporáneo,
+            comodidad y aprovechamiento de los espacios.
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- PROYECTO 6 -->
+<div class="tarjeta-proyecto" data-categoria="comercial">
+
+    <img
+        src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=800&q=80"
+        alt="Oficinas modernas"
+    >
+
+    <div class="contenido-proyecto">
+
+        <span>Comercial</span>
+
+        <h3>Oficinas Modernas</h3>
+
+        <p>
+            Diseño y planificación de oficinas modernas,
+            funcionales y adaptadas a las necesidades de cada empresa.
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- PROYECTO 7 -->
+<div class="tarjeta-proyecto" data-categoria="comercial">
+
+    <img
+        src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=800&q=80"
+        alt="Espacio comercial"
+    >
+
+    <div class="contenido-proyecto">
+
+        <span>Comercial</span>
+
+        <h3>Espacio Comercial</h3>
+
+        <p>
+            Desarrollo de un espacio comercial diseñado para
+            brindar una distribución práctica y atractiva.
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- PROYECTO 8 -->
+<div class="tarjeta-proyecto" data-categoria="infraestructura">
+
+    <img
+        src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80"
+        alt="Obra de infraestructura"
+    >
+
+    <div class="contenido-proyecto">
+
+        <span>Infraestructura</span>
+
+        <h3>Obra de Infraestructura</h3>
+
+        <p>
+            Proyecto orientado al desarrollo de infraestructura
+            segura, resistente y funcional.
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- PROYECTO 9 -->
+<div class="tarjeta-proyecto" data-categoria="infraestructura">
+
+   <img src="https://www.node-group.co.za/sitepad-data/uploads/2026/02/INDUS-MM.jpeg"
+    alt="Proyecto de infraestructura urbana">
+
+    <div class="contenido-proyecto">
+
+        <span>Infraestructura</span>
+
+        <h3>Infraestructura Urbana</h3>
+
+        <p>
+            Desarrollo de soluciones de infraestructura orientadas
+            a mejorar la funcionalidad y el uso de los espacios.
+        </p>
+
+    </div>
+
+</div>
+
+</section>
+
+
+    <!-- PIE DE PÁGINA -->
+     
+    <footer class="pie-pagina">
+
+    <div class="columna-footer">
+
+        <h3>Te ayudamos</h3>
+
+        <a href="contacto.html">Contáctanos</a>
+        <a href="contacto.html">Centro de ayuda</a>
+        <a href="contacto.html">Servicio al cliente</a>
+        <a href="contacto.html">Preguntas frecuentes</a>
+
+    </div>
+
+
+    <div class="columna-footer">
+
+        <h3>Nuestra empresa</h3>
+
+        <a href="nosotros.html">Nosotros</a>
+        <a href="nosotros.html">Nuestra historia</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="proyectos.html">Proyectos</a>
+
+    </div>
+
+
+    <div class="columna-footer">
+
+        <h3>Nuestros canales</h3>
+
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">WhatsApp</a>
+        <a href="#">Correo electrónico</a>
+
+    </div>
+
+
+    <div class="columna-footer">
+
+        <h3>Contacto</h3>
+
+        <p>📍 Lima, Perú</p>
+        <p>📞 +51 999 999 999</p>
+        <p>✉️ contacto@aeroestructuras.com</p>
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>
